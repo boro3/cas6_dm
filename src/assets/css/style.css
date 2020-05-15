@@ -1,0 +1,88 @@
+#app{
+    width: 360px;
+    margin: 60px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+h1{
+    background: #2980b9;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: normal;
+}
+.donetodo{
+    text-decoration: line-through;
+    color: gray;
+}
+
+li{
+    width: 100%;
+    background: #fff;
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    cursor: pointer;
+}
+
+li:nth-child(2n){
+    background: #f7f7f7;
+}
+
+#app ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;   
+}
+
+#app input{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 17px;
+    background: #f7f7f7;
+    height: 40px;
+    padding: 13px 13px 13px 20px;
+    color: #2980b9;
+    border:3px solid rgba(0,0,0,0)
+}
+
+#app input:focus{
+    background: #fff;
+    border: 3px solid #2980b9;
+    outline: none;
+}
+
+span{
+    background: red;
+    height: 40px;
+    margin-right: 40px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 0;
+    transition: 0.2s linear;
+    opacity: 0;
+    cursor: pointer;
+}
+
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
+
+button{
+    width: 50%;
+    margin: 15px 25%;
+    border-radius: 5px;
+    background: #2980b9;
+    height: 40px;
+    font-size: 24px;
+    font-weight: normal;
+    color: white;
+    border: none;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+    cursor: pointer;
+}
